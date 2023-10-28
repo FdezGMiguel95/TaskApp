@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginTop="10dp"
+    android:id="@+id/llPopup"
+    android:background="#DFDFDF">
+
+    <ImageView
+        android:id="@+id/ivPopup"
+        android:layout_width="220dp"
+        android:layout_height="110dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        />
+        <EditText
+            android:id="@+id/etNameTPopup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="nombretarea"
+            android:textSize="22dp"
+            android:layout_gravity="center"
+            />
+        <EditText
+            android:id="@+id/etDescTPopup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="descripcion tarea"
+            android:layout_gravity="center"
+            />
+        <EditText
+            android:id="@+id/etTypeTPopup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Tipo tarea"
+            android:layout_gravity="center"
+            />
+    <Button
+        android:id="@+id/btnAddPopup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Agregar"/>
+
+</LinearLayout>

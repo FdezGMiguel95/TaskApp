@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TaskApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Open_nav">Open</string>
+    <string name="Close_nav">Close</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
